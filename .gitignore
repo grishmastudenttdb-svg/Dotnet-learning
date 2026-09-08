@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MVC Web/.vs
+/MVC Web/AspCoeWebAppMVC/.vs
+/MVC Web/AspCoeWebAppMVC/bin/Debug/net10.0
+/MVC Web/AspCoeWebAppMVC/obj
+/MVC Web/AspCoreMiddlewares/.vs
+/MVC Web/AspCoreMiddlewares/bin/Debug/net10.0
+/MVC Web/AspCoreMiddlewares/obj
+/MVC Web/RouterWithoutMVC/.vs
+/MVC Web/RouterWithoutMVC/bin/Debug/net10.0
+/MVC Web/RouterWithoutMVC/obj
+/MVC Web/RoutingWithMVC/.vs
+/MVC Web/RoutingWithMVC/bin/Debug/net10.0
+/MVC Web/RoutingWithMVC/obj
+/MVC Web/RoutingWithOUr/.vs/RoutingWithOUr.slnx
+/MVC Web/RoutingWithOUr/obj
+/MVC Web/RoutingWithoutMVC/.vs
+/MVC Web/RoutingWithoutMVC/bin/Debug/net10.0
+/MVC Web/RoutingWithoutMVC/obj
