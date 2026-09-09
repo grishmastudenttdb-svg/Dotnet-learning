@@ -3,8 +3,12 @@
 namespace RouterWithoutMVC.Properties.controller
 {
     public class HomeController : Controller
+        
     {
-        public IActionResult Index()
+        [Route("")]
+        [Route("Home")]
+        [Route("Home/Index")]
+        public IActionResult  Index()
         {
             return View();
         }

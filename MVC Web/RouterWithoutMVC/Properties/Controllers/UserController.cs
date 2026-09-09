@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace RoutingWithoutMVC.Properties.Controllers
+namespace RouterWithoutMVC.Properties.Controllers
 {
-    public class HomeController : Controller
+    public class UserController : Controller
     {
         public IActionResult Index()
         {
