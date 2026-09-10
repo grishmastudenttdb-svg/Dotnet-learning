@@ -3,7 +3,73 @@
 *@
 @{
     ViewData["Title"] = "Index";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+    // Layout = "~/Views/Shared/_Layout2.cshtml";
+    Layout = null;
 }
 
-
+ 
 <h1>Index</h1>
+<p>This is my Home page</p>
+
+@* @{
+    if (TempData["data4"] != null)
+    {
+        foreach (var item in (List<string>)TempData["data4"])
+        {
+            <h2>@item</h2> 
+            }
+    }
+    else
+    {
+        <h1>No Data</h1>
+    }
+} *@
+
+@* @ViewBag.myname
+<br />
+@ViewData["data6"]
+<br />
+
+@ViewBag.data1
+<br />
+@ViewBag.data2
+<br />
+@ViewBag.data3
+<br />
+
+@{
+    foreach (var item in ViewBag.data4)
+    {
+        <h2>@item</h2>
+    }
+}
+@{
+    foreach (var item in ViewBag.data5)
+    {
+        <h2>@item</h2>
+    }
+} *@
+
+
+
+@* @ViewData["data1"]
+<br />
+@ViewData["data2"]
+<br />
+@ViewData["data3"]
+<br />
+
+@{
+    foreach (var item in (string[])ViewData["data4"])
+    {
+        <h2>@item</h2>
+    }
+}
+
+@{
+    foreach (var item in (List<string>)ViewData["data5"])
+    {
+        <h2>@item</h2>
+    }
+} *@
